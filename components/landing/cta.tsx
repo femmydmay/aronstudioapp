@@ -7,10 +7,10 @@ import { Button } from "@/components/ui/button";
 const CTASection = () => {
   return (
     <section id="pricing" className="py-32 relative">
-          {/* Background */}
-          <div className="absolute inset-0 bg-linear from-primary/20 via-muted to-secondary/20" />
-          <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-primary/10 blur-[120px]" />
-          <div className="absolute bottom-0 left-0 w-72 h-72 rounded-full bg-secondary/10 blur-[100px]" />
+      {/* Background */}
+      <div className="absolute inset-0 bg-linear from-primary/20 via-muted to-secondary/20" />
+      <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-primary/10 blur-[120px]" />
+      <div className="absolute bottom-0 left-0 w-72 h-72 rounded-full bg-secondary/10 blur-[100px]" />
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
@@ -32,10 +32,11 @@ const CTASection = () => {
             </h2>
 
             <p className="text-muted-foreground text-lg max-w-md mx-auto mb-10">
-              Join hundreds of artists who trust Aron Studios for professional recording.
+              Join hundreds of artists who trust Aron Studios for professional
+              recording.
             </p>
             <p className="text-muted-foreground text-lg max-w-md mx-auto mb-10">
-             Contact SCSL @ +234 818 569 6269 on Whatsapp or Email: service@samaynexus4u.com 
+              Contact us Email: service@samaynexus4u.com
             </p>
 
             <div className="flex flex-wrap justify-center gap-4">
